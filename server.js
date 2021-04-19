@@ -4,6 +4,7 @@ const fetch = require('node-fetch');
 const path = require('path');
 const p = path.join(
     path.dirname(process.mainModule.filename),
+    'result',
     'post.json'
 );
 
